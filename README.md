@@ -1,7 +1,7 @@
 # Portifólio 
 
 ## Sobre o Projeto
-  Este Portifólio foi feito criado com React. Usei JavaScript, React, TypeScript e Styled Components.
+  Esse Portifólio foi criado com React. Usei JavaScript, React, TypeScript e Styled Components.
 
 ## 🎨 Layout
 
