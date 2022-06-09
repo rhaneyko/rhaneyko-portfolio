@@ -1,9 +1,9 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
  import { BrowserRouter as Router } from 'react-router-dom' 
 import { NavHashLink } from 'react-router-hash-link';
 
-import Switch from 'react-switch';
-import { shade } from 'polished';
+//import Switch from 'react-switch';
+//import { shade } from 'polished';
 
  import {  
       Container,
@@ -11,7 +11,7 @@ import { shade } from 'polished';
       Bars,
       NavMenu,
      } from './styles'
-import { ThemeContext } from 'styled-components';
+//import { ThemeContext } from 'styled-components';
 
 export interface NavbarProps {
   toggleTheme: () => void;
@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
   }
 
 
-  const { colors, title } = useContext(ThemeContext);
+  //const { colors, title } = useContext(ThemeContext);
 
    return(
            <Container className='headerContainer flexSB' >

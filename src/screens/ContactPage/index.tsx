@@ -34,24 +34,24 @@ import {
         window.open('mailto: rhaneykohonorio@gmail.com')
     }
 
-    const [name, setName] = React.useState('');
-    const [email, setEmail] = React.useState('');
-    const [message, setMessage] = React.useState('');
+    //const [name, setName] = React.useState('');
+    //const [email, setEmail] = React.useState('');
+    //const [message, setMessage] = React.useState('');
 
-    const onChangeName = (textName: string) => {
-      setName(textName)
-    }
-    const onChangeEmail = (textEmail: string) => {
-      setEmail(textEmail)
-    }
-    const onChangeMessage = (textMessage: string) => {
-      setMessage(textMessage)
-    }
+    // const onChangeName = (textName: string) => {
+    //   setName(textName)
+    // }
+    // const onChangeEmail = (textEmail: string) => {
+    //   setEmail(textEmail)
+    // }
+    // const onChangeMessage = (textMessage: string) => {
+    //   setMessage(textMessage)
+    // }
 
-    const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-        console.log(name, email, message);
-    }
+    // const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    //     e.preventDefault();
+    //     console.log(name, email, message);
+    // }
     return(
         <Container id='contact' >
 
