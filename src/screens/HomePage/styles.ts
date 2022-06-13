@@ -21,9 +21,7 @@ export const Main = styled.div`
 
     @media ( max-width: 390px ){
         width: 390px;
-
     }
-
 `;
 
 export const Name = styled.h1`
@@ -47,7 +45,7 @@ export const Gretting = styled.p`
     color: ${props => props.theme.colors.text};
 `;
 
-export const ButtonPrj = styled.button`
+export const ButtonLnkd = styled.button`
     display: flex;
     flex-direction: row;
 
@@ -85,10 +83,8 @@ export const ButtonCv = styled.button`
     cursor: pointer;
 `;
 
-export const ButtonTextPrj = styled.p`
-    margin-right: 5px;
-
-    font-size: 0.7rem;
+export const ButtonTextLnkd = styled.p`
+    font-size: 0.8rem;
     font-weight: bold;
 
     color: ${props => props.theme.colors.buttonText};

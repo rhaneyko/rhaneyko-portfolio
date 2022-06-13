@@ -1,24 +1,24 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
-import { AiFillGithub } from 'react-icons/ai'
 import { 
     Container,
     Main,
     Name,
     Gretting,
-    ButtonPrj,
+    ButtonLnkd,
     ButtonCv,
-    ButtonTextPrj,
+    ButtonTextLnkd,
     ButtonTextCv,
      } from './styles'
 
 const HomePage: React.FC  = () => {
-  const OpenCv = () => {
-    window.open('https://www.google.com/')
+  const openLinkedin = () => {
+    window.open('https://www.linkedin.com/in/rhaneyko-honorio-73657819b')
   }
-  const OpenPrj = () => {
-    window.open('https://www.github.com/rhaneyko')
+
+  const downloadCv = () => {
+    window.open('www.google.com')
   }
+  
 
   return (
 
@@ -28,17 +28,14 @@ const HomePage: React.FC  = () => {
                 <Name>Rhaneyko </Name> 
             <Gretting>Desenvolvedor.</Gretting>
             <Gretting>Estudante de Análise e Desenvolvimento de Sistemas. |</Gretting>
-              <ButtonPrj onClick={(OpenPrj)}>
-                  <ButtonTextPrj>PROJETOS</ButtonTextPrj>
-                  <AiFillGithub size={20} color='#000000'/>
-              </ButtonPrj>
-
-              <ButtonCv onClick={(OpenCv)}>
-                  <ButtonTextCv>CV</ButtonTextCv>
+              <ButtonLnkd onClick={(openLinkedin)}>
+                  <ButtonTextLnkd>LinkedIn</ButtonTextLnkd>
+              </ButtonLnkd>
+              <ButtonCv onClick={(downloadCv)}>
+                  <ButtonTextCv>Currículo</ButtonTextCv>
               </ButtonCv>
         </Main>
     </Container> 
   )
 }
-
 export default HomePage;
