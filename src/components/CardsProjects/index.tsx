@@ -18,7 +18,7 @@ import {
 const CardsProjects = () => {
 
     const GitHubRepo = () => {
-        window.open('https://github.com/rhaneyko/portfolio')
+        window.open('https://github.com/rhaneyko/rhaneyko-portifolio')
     }
 
     const LiveSite = () => {
