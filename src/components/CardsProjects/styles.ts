@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
-
 `;
 
 export const CardProject = styled.div`
@@ -46,15 +45,17 @@ export const CardProject = styled.div`
         }
         .projectDescription{
             display: inline;
-            
-            margin-top: 10%;
-            
         }
     }
 
     @media (max-width: 768px) {
         width:  80vw;
         height: 22vh;
+
+        :hover{
+            height: 32vh;
+        }
+
     }
 `;
 
@@ -83,7 +84,7 @@ export const ProjectName = styled.p`
     @media (max-width: 768px) {
         font-size: 1.5rem;
 
-        margin-top: 38%;
+        margin-top: 50%;
     }
 `;
 
@@ -97,13 +98,16 @@ export const ProjectDescription = styled.p`
 
    font-size: 1rem;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
    line-height: 1.4rem;
    
    color: ${props => props.theme.colors.text};
 
    @media (max-width: 768px) {
         display: none;
+
+        font-size: 0.9rem;
+
+        margin-top: 12%;
    }
 `;
 
@@ -116,8 +120,8 @@ export const Buttons = styled.div`
 
     @media(max-width: 768px) {
         display: flex;
-
         margin-top: 15%;
+
     }
 `;
 
@@ -141,7 +145,7 @@ export const ButtonViewLive = styled.button`
     }
 
     @media (max-width: 768px) {
-        width: 24vw;
+        width: 26vw;
     }
 `;
 
@@ -151,7 +155,7 @@ export const ButtonViewLiveText = styled.p`
     color: ${props => props.theme.colors.buttonText};
 
     @media (max-width: 768px) {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 `;
 
@@ -174,7 +178,7 @@ export const ButtonGitRepo = styled.button`
 
     
     @media (max-width: 768px) {
-        width: 24vw;
+        width: 26vw;
     }
 `;
 
@@ -184,7 +188,7 @@ export const ButtonGitRepoText = styled.p`
     color: ${props => props.theme.colors.buttonText};
 
     @media (max-width: 768px) {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 `;
 
