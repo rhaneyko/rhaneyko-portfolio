@@ -22,6 +22,10 @@ import styled from 'styled-components';
      width: 100%;
      max-width: 1904px;
 
+     @media (max-width: 768px) {
+       padding-left: 10px;
+     }
+
     a{
      display: flex;
 
