@@ -22,7 +22,7 @@ const CardsProjects = () => {
     }
 
     const LiveSite = () => {
-        window.open('')
+        window.open('https://rhaneyko-honorio.netlify.app/')
     }
 
     // const breakPoints = [
