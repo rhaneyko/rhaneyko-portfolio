@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
+
 `;
 
 export const CardProject = styled.div`
@@ -38,6 +39,10 @@ export const CardProject = styled.div`
             display: inline;
 
             margin-top: 3%;
+
+            @media (max-width: 768px) {
+                margin-top: 15%;
+            }
         }
         .projectDescription{
             display: inline;
@@ -48,8 +53,8 @@ export const CardProject = styled.div`
     }
 
     @media (max-width: 768px) {
-        width:  30vw;
-        height: 24vh;
+        width:  80vw;
+        height: 22vh;
     }
 `;
 
@@ -58,8 +63,8 @@ export const Image = styled.img`
    height: 18vh;
 
    @media (max-width: 768px) {
-        width:  30vw;
-        height: 15vh;
+        width:  80vw;
+        height: 18vh;
    }
 `;
 
@@ -76,6 +81,9 @@ export const ProjectName = styled.p`
    color: ${props => props.theme.colors.title};
 
     @media (max-width: 768px) {
+        font-size: 1.5rem;
+
+        margin-top: 38%;
     }
 `;
 
@@ -106,6 +114,11 @@ export const Buttons = styled.div`
     position: absolute;
     z-index: 9999;
 
+    @media(max-width: 768px) {
+        display: flex;
+
+        margin-top: 15%;
+    }
 `;
 
 
@@ -128,7 +141,7 @@ export const ButtonViewLive = styled.button`
     }
 
     @media (max-width: 768px) {
-        width: 12vw;
+        width: 24vw;
     }
 `;
 
@@ -161,11 +174,8 @@ export const ButtonGitRepo = styled.button`
 
     
     @media (max-width: 768px) {
-        width: 12vw;
-        
+        width: 24vw;
     }
-
-    
 `;
 
 export const ButtonGitRepoText = styled.p`

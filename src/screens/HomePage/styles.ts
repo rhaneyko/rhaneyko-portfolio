@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
     display: flex;
     height: 70vh;
+
+    @media (max-width: 768px) {
+        height: 60vh;
+    }
 `;
 
 export const NavigationPages = styled.div`
@@ -19,8 +23,8 @@ export const Main = styled.div`
 
     padding: 3.5rem;
 
-    @media ( max-width: 390px ){
-        width: 390px;
+    @media ( max-width: 768px ) {
+        width: 60vw;
     }
 `;
 
@@ -32,7 +36,9 @@ export const Name = styled.h1`
     font-size: 2rem;
 
     color: ${props => props.theme.colors.title};
-    
+    @media ( max-width: 768px ){
+        font-size: 1.5rem;
+    }
 
 `;
 
@@ -43,6 +49,10 @@ export const Gretting = styled.p`
     margin: 10px 10px 10px 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: ${props => props.theme.colors.text};
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 `;
 
 export const ButtonLnkd = styled.button`
@@ -64,6 +74,10 @@ export const ButtonLnkd = styled.button`
 
     outline: 0;
     cursor: pointer;
+
+    @media ( max-width: 768px ){
+         height: 40px;
+    }
 `;
 
 export const ButtonCv = styled.button`

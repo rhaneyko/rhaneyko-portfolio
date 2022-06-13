@@ -9,20 +9,20 @@ export const Container = styled.div`
     height: 75vh;
    
 
-    @media (max-width: 390px) {
-        display: flex;
+    @media (max-width: 768px) {
         flex-direction: column;
 
-        height: 80vh;
+        height: 45vh;
     } 
 `;
 
 export const Image = styled.img`
     width: 25vw;
 
-    @media (max-width: 390px) {
-        width: 90%;
-        margin-left: 60%;
+    @media (max-width: 768px) {
+        width: 50vw;
+
+        margin-bottom: 10px;
     }
 `;
 
@@ -40,13 +40,14 @@ export const About = styled.div`
 
     cursor: pointer;
 
-    @media (max-width: 390px ) {
-        width: 70vh;
+    @media (max-width: 768px) {
+        width: 100vw;
+        height: 20vh;
+        padding: 10px;
 
-        margin-top: 5%;
-        margin-left: 60%;
+        margin-left: 0;
+    }
 
-    } 
 `;
 
 export const Title = styled.h1`
@@ -57,9 +58,11 @@ export const Title = styled.h1`
     line-height: 3rem;
     color: ${props => props.theme.colors.title};
 
-    @media (max-width: 390px) {
-        font-size: 1.8rem;
+    @media (max-width: 768px) {
+        font-size: 1.5rem;
     }
+
+    
 `;
 
 export const TextAbout = styled.p`
@@ -72,8 +75,10 @@ export const TextAbout = styled.p`
 
     color: ${props => props.theme.colors.text};
 
-    @media (max-width: 390px) {
-        font-size: 1.4rem;
+    @media (max-width: 768px) {
+        font-size: 0.8rem;
     }
+
+   
 
 `;

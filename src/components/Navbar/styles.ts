@@ -74,6 +74,11 @@ import styled from 'styled-components';
     transform: translateX(100%);
     transition: 0.5s;
     z-index: 999;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      left: 0;
+    }
   }
 }
 .nav_active {
@@ -110,6 +115,10 @@ export const NavLink = styled(Link)`
      color: ${props => props.theme.colors.title};
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      font-size: 2rem;
+
+     @media (max-width: 768px) {
+        font-size: 1.5rem;
+     }
  `;
 
  export const Bars = styled(FaBars)`
