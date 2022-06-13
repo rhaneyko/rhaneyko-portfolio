@@ -22,7 +22,7 @@ const CardsProjects = () => {
     }
 
     const LiveSite = () => {
-        window.open('http://localhost:3000/#home')
+        window.open('https://rhaneyko-portifolio.netlify.app/')
     }
 
     // const breakPoints = [
