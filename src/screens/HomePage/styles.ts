@@ -5,7 +5,7 @@ export const Container = styled.div`
     height: 70vh;
 
     @media (max-width: 768px) {
-        height: 60vh;
+        height: 70vh;
     }
 `;
 
@@ -24,7 +24,9 @@ export const Main = styled.div`
     padding: 3.5rem;
 
     @media ( max-width: 768px ) {
-        width: 60vw;
+        width: 100%;
+
+        padding: 0;
     }
 `;
 
