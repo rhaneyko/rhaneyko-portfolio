@@ -24,7 +24,7 @@ export const Main = styled.div`
     padding: 3.5rem;
 
     @media ( max-width: 768px ) {
-        width: 100%;
+        width: 98%;
 
         padding: 0;
     }

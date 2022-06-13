@@ -27,7 +27,7 @@ const HomePage: React.FC  = () => {
             <Gretting>Olá, meu nome é</Gretting>
                 <Name>Rhaneyko </Name> 
             <Gretting>Desenvolvedor.</Gretting>
-            <Gretting>Estudante de Análise e Desenvolvimento de Sistemas.</Gretting>
+            <Gretting>Estudante de Análise e Desenvolvimento de Sistemas. |</Gretting>
               <ButtonLnkd onClick={(openLinkedin)}>
                   <ButtonTextLnkd>LinkedIn</ButtonTextLnkd>
               </ButtonLnkd>
