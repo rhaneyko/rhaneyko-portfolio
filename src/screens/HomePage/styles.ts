@@ -45,11 +45,10 @@ export const Name = styled.h1`
 `;
 
 export const Gretting = styled.p`
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     line-height: 2rem;
     
     margin: 10px 10px 10px 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: ${props => props.theme.colors.text};
 
     @media (max-width: 768px) {

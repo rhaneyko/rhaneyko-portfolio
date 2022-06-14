@@ -32,9 +32,9 @@ import styled from 'styled-components';
      height: 100%;
      align-items: center;
 
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-family: 'Allerta Stencil', sans-serif;
 
-     font-weight: bold;
+     
      font-size: 1rem;
      text-decoration: none;
      text-transform: uppercase;
@@ -70,7 +70,7 @@ import styled from 'styled-components';
       
     position: absolute;
 
-    border: 1px solid ;
+    border: 1px solid;
   
     
     background-color: ${props => props.theme.colors.navBackground};
@@ -88,8 +88,6 @@ import styled from 'styled-components';
 .nav_active {
   transform: translateX(0%);
 }
-
-    
  `;
 
 export const NavLink = styled(Link)`
@@ -98,17 +96,15 @@ export const NavLink = styled(Link)`
      height: 100%;
      align-items: center;
      
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-family: 'Allerta Stencil', sans-serif;
 
-     font-weight: bold;
+     
      font-size: 1rem;
      text-decoration: none;
      text-transform: uppercase;
      
      color: ${props => props.theme.colors.title};
 
-     padding: 0 1rem;
-     
      cursor: pointer;
 &.active {
     color: ${props => props.theme.colors.title};
@@ -117,7 +113,7 @@ export const NavLink = styled(Link)`
 
  export const LogoName = styled.h1`
      color: ${props => props.theme.colors.title};
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-family: 'Allerta Stencil', sans-serif;
      font-size: 2rem;
 
      @media (max-width: 768px) {

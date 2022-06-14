@@ -39,8 +39,10 @@ export const CardProject = styled.div`
 
             margin-top: 3%;
 
+
             @media (max-width: 768px) {
                 margin-top: 15%;
+
             }
         }
         .projectDescription{
@@ -75,12 +77,10 @@ export const ProjectName = styled.p`
 
    margin-top: 9.3%;
 
-   font-weight: bold;
    font-size: 2rem;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
    color: ${props => props.theme.colors.title};
-
+   
     @media (max-width: 768px) {
         font-size: 1.5rem;
 
@@ -94,10 +94,10 @@ export const ProjectDescription = styled.p`
 
    z-index: 9999;
 
-   margin: 8px;
+   margin: 10% 3%;
+
 
    font-size: 1rem;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    line-height: 1.4rem;
    
    color: ${props => props.theme.colors.text};
@@ -119,9 +119,9 @@ export const Buttons = styled.div`
     z-index: 9999;
 
     @media(max-width: 768px) {
-        display: flex;
-        margin-top: 15%;
+        display: inline;
 
+        margin-top: 15%;
     }
 `;
 

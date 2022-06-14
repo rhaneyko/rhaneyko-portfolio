@@ -12,8 +12,6 @@ export const Container = styled.div`
     padding: 5%;
 
     background-color: ${props => props.theme.colors.background};
-
-
 `;
 
 export const Title = styled.h1`
@@ -21,6 +19,5 @@ export const Title = styled.h1`
     margin-bottom: 10%;
 
     font-size: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: ${props => props.theme.colors.title};
 `;

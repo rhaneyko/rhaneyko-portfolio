@@ -10,6 +10,6 @@ export default createGlobalStyle`
   body{
     background-color: ${props => props.theme.colors.background};
 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Allerta Stencil', sans-serif;
   }
 `

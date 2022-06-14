@@ -54,7 +54,7 @@ export const Title = styled.h1`
     display: flex;
 
     font-size: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     line-height: 3rem;
     color: ${props => props.theme.colors.title};
 
@@ -70,15 +70,12 @@ export const TextAbout = styled.p`
 
     margin-top: 0.3rem;
 
-    font-size: 1.2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    
 
     color: ${props => props.theme.colors.text};
 
     @media (max-width: 768px) {
         font-size: 0.8rem;
     }
-
-   
-
 `;

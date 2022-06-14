@@ -26,7 +26,6 @@ export const Title = styled.h1`
     margin-bottom: 10vw;
 
     font-size: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     color: ${props => props.theme.colors.title};
 
