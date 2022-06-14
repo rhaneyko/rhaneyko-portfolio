@@ -115,9 +115,6 @@ export const ButtonTextCv = styled.p`
 
 
 export const Image = styled.img`
-    width: 50vw;
-    height: 50vh;
-
     margin-top: 7%;
     margin-right: 5%;
     @media (max-width: 768px) {
