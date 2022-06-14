@@ -33,7 +33,6 @@ import styled from 'styled-components';
      align-items: center;
 
      font-family: 'Allerta Stencil', sans-serif;
-
      
      font-size: 1rem;
      text-decoration: none;

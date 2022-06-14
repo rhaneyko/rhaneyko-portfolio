@@ -36,17 +36,15 @@ export const CardProject = styled.div`
         
         .buttonsHover{
             display: inline;
-
+            
             margin-top: 3%;
-
 
             @media (max-width: 768px) {
                 margin-top: 15%;
-
             }
         }
         .projectDescription{
-            display: inline;
+          display: inline;
         }
     }
 
@@ -55,9 +53,8 @@ export const CardProject = styled.div`
         height: 22vh;
 
         :hover{
-            height: 32vh;
+          height: 32vh;
         }
-
     }
 `;
 
@@ -84,7 +81,7 @@ export const ProjectName = styled.p`
     @media (max-width: 768px) {
         font-size: 1.5rem;
 
-        margin-top: 50%;
+        margin-top: 43%;
     }
 `;
 
