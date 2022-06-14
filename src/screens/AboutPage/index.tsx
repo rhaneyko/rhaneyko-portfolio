@@ -1,5 +1,5 @@
 import React from 'react'
-import imageAbout from '../../assets/imageAbout.jpg'
+import imageAbout from '../../assets/imageAbout.png'
 
 import { 
     Container,

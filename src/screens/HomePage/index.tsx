@@ -1,4 +1,5 @@
 import React from 'react'
+import imageHome from '../../assets/imageHome.png'
 import { 
     Container,
     Main,
@@ -8,6 +9,7 @@ import {
     ButtonCv,
     ButtonTextLnkd,
     ButtonTextCv,
+    Image
      } from './styles'
 
 const HomePage: React.FC  = () => {
@@ -34,7 +36,9 @@ const HomePage: React.FC  = () => {
               <ButtonCv onClick={(downloadCv)}>
                   <ButtonTextCv>Currículo</ButtonTextCv>
               </ButtonCv>
+
         </Main>
+             <Image src={imageHome}/>
     </Container> 
   )
 }
