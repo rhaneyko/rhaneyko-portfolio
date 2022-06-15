@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
-    height: 70vh;
+    height: 50vh;
     @media (max-width: 768px) {
         height: 40vh;
 
-        margin-top: 15%;
+        margin-top: 10%;
     }
 `;
 
@@ -53,7 +53,7 @@ export const Gretting = styled.p`
     color: ${props => props.theme.colors.text};
 
     @media (max-width: 768px) {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 `;
 
@@ -116,7 +116,7 @@ export const ButtonTextCv = styled.p`
 
 export const Image = styled.img`
     margin-top: 7%;
-    margin-right: 5%;
+    margin-left: 10%;
     @media (max-width: 768px) {
         display: none;
     }

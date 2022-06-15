@@ -1,10 +1,8 @@
 import React from 'react'
-import imageAbout from '../../assets/imageAbout.png'
 
 import { 
     Container,
     Title,
-    Image,
     About,
     TextAbout,
      } from './styles'
@@ -13,7 +11,6 @@ import {
 const AboutPage: React.FC = () => {
   return (
     <Container id='about' >
-      <Image src={imageAbout} />
       <About>
         <Title>&lt;Quem eu sou?/&gt;</Title>
          <TextAbout>

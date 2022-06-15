@@ -4,20 +4,20 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
-    height: 70vh;
+    height: 45vh;
 
     align-items: center;
     justify-content: center;
 
-    padding: 5%;
-
-    background-color: ${props => props.theme.colors.background};
+    @media (max-width: 768px) {
+        height: 40vh;
+    }
 `;
 
 export const Title = styled.h1`
-    margin-top: -8%;
-    margin-bottom: 10%;
-
     font-size: 2rem;
     color: ${props => props.theme.colors.title};
+
+    margin-bottom: 2%;
 `;
+

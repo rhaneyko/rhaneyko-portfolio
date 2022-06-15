@@ -4,6 +4,7 @@ import AboutPage from '../../screens/AboutPage';
 import ContactPage from '../../screens/ContactPage';
 import HomePage from '../../screens/HomePage';
 import ProjectsPage from '../../screens/ProjectsPage';
+import CopyrightPage from '../../screens/CopyrightPage';
 
 const Layout = () => {
   return (
@@ -14,6 +15,7 @@ const Layout = () => {
         <AboutPage/>
         <ProjectsPage/>
         <ContactPage/>
+        <CopyrightPage/>
       </Wrapper>
     </Container>
      </>

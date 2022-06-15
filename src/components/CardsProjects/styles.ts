@@ -2,6 +2,9 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
+
+    justify-content: center;
+    align-items: center;
 `;
 
 export const CardProject = styled.div`
@@ -18,8 +21,6 @@ export const CardProject = styled.div`
     line-height: 1rem;
 
     padding: 0;
-
-    margin-bottom: 1rem;
 
     box-shadow: rgba(0, 0, 0, 2)  1px 1px 20px 1px;
     background-color: ${props => props.theme.colors.cardBackground};	
@@ -51,9 +52,10 @@ export const CardProject = styled.div`
     @media (max-width: 768px) {
         width:  80vw;
         height: 22vh;
+        margin-top: -10%;
 
         :hover{
-          height: 32vh;
+          height: 28vh;
         }
     }
 `;
@@ -81,7 +83,7 @@ export const ProjectName = styled.p`
     @media (max-width: 768px) {
         font-size: 1.5rem;
 
-        margin-top: 43%;
+        margin-top: 38%;
     }
 `;
 
@@ -93,7 +95,6 @@ export const ProjectDescription = styled.p`
 
    margin: 10% 3%;
 
-
    font-size: 1rem;
    line-height: 1.4rem;
    
@@ -104,7 +105,7 @@ export const ProjectDescription = styled.p`
 
         font-size: 0.9rem;
 
-        margin-top: 12%;
+        margin-top: 10%;
    }
 `;
 

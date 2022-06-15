@@ -2,79 +2,58 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
-    
-    justify-content: center;
-    align-items: center; 
 
-    height: 75vh;
-   
+    height: 30vh;
+
+    align-items: center; 
 
     @media (max-width: 768px) {
         flex-direction: column;
-
-        height: 45vh;
     } 
 `;
 
 export const Image = styled.img`
     width: 25vw;
-
-    margin-top: -5%;
-
-    @media (max-width: 768px) {
-        width: 50vw;
-
-        margin-bottom: 10px;
-    }
 `;
 
 export const About = styled.div`
     display: flex;
     flex-direction: column;
 
-    width: 50vw;
-    height: 30vh;
-
-    margin-left: 5%;
-
+    width: 45vw;
 
     align-items: center;
+    justify-content: center;
+
+    margin-left: 50%;
 
     cursor: pointer;
 
     @media (max-width: 768px) {
         width: 100vw;
-        height: 20vh;
+        height: 30vh;
         padding: 10px;
-
-        margin-left: 0;
     }
-
 `;
 
 export const Title = styled.h1`
     display: flex;
 
+    margin-bottom: 2%;
+
     font-size: 2rem;
-    
     line-height: 3rem;
     color: ${props => props.theme.colors.title};
 
     @media (max-width: 768px) {
         font-size: 1.5rem;
     }
-
-    
 `;
 
 export const TextAbout = styled.p`
     display: flex;
 
-    margin-top: 0.3rem;
-
     font-size: 1rem;
-    
-
     color: ${props => props.theme.colors.text};
 
     @media (max-width: 768px) {

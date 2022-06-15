@@ -1,17 +1,16 @@
 import React from 'react'
-import CardsProjects from '../../components/CardsProjects'
+import CardsProjects from '../../components/CardsProjects';
 import { 
     Container,
     Title,
      } from './styles'
-
 
 const ProjectsPage: React.FC = () => {
 
   return (
     <Container id='projects'>
         <Title>Projetos</Title>
-         <CardsProjects/>
+        <CardsProjects/>
     </Container>
   )
 }
