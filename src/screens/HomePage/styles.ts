@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
     display: flex;
     height: 50vh;
+
+    align-items: center;
     @media (max-width: 768px) {
         height: 40vh;
 
@@ -22,12 +24,12 @@ export const Main = styled.div`
 
     width: 50vw;
 
-    padding: 3.5rem;
+    padding-left: 3.5rem;
 
     @media ( max-width: 768px ) {
         width: 98%;
 
-        padding: 0;
+        padding-left: 0;
     }
 `;
 

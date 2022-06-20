@@ -17,6 +17,8 @@ export const CardProject = styled.div`
     margin-bottom: 40px;
     padding: 0;
 
+    position: relative;
+
     box-shadow: rgba(0, 0, 0, 2)  1px 1px 20px 1px;
     background-color: ${props => props.theme.colors.cardBackground};	
 
@@ -26,15 +28,13 @@ export const CardProject = styled.div`
     &:hover {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
-        height: 40vh;
+        height: 30vh;
 
         .transition { transition: .3s cubic-bezier(.3, 0, 0, 1.3) }
         
         .buttonsHover{
             display: inline;
             margin-top: 5rem;
-  
-
 
             @media (max-width: 768px) {
                 margin-top: 5%;
@@ -106,7 +106,7 @@ export const Buttons = styled.div`
 
     @media(max-width: 768px) {
         display: inline;
-        margin-top: 5%;
+        margin-top: 3rem;
 
     }
 `;

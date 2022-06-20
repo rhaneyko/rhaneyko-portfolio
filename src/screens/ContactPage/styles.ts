@@ -3,18 +3,17 @@ import styled from "styled-components";
 export const Container = styled.div`
     display: flex;
     flex-direction: row;
+    
+    height: 50vh;
+
     justify-content: center;
     align-items: center;
 
-
     margin-top: 100px;
-
-    height: 50vh;
-
     @media (max-width: 768px) {
+        width: 125vw;
         height: 75vh;
         flex-direction: column;
-
     }
 
 `; 

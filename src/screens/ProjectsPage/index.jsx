@@ -7,9 +7,6 @@ import {
      } from './styles'
 
 const ProjectsPage = () => {
-
-
-
   return (
     <Container id='projects'>
         <Title>Projetos</Title>
@@ -24,13 +21,12 @@ const ProjectsPage = () => {
             ]
           }
           showArrows={true}
+          enableAutoPlay={true}
+
+          autoPlaySpeed={3000}
           itemsToShow={2}
           itemsToScroll={2}
-          style={{
-            height: 350,
-            marginTop: 20,
-            paddingTop: 20,
-          }}>
+          >
           <CardsProjects/>
           <CardsProjects/>
           <CardsProjects/>

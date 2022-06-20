@@ -10,6 +10,10 @@ export const Container = styled.div`
     justify-content: center;
 
     background-color: ${props => props.theme.colors.title};
+
+    @media (max-width: 768px) {
+        width: 125vw;
+    }
 `;
 
 export const Title = styled.text`

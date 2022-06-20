@@ -10,9 +10,10 @@ export const Container = styled.div`
     justify-content: center;
     @media (max-width: 768px) {
         width: 125vw;
-        height: 60vh;
 
         margin-top: 20px;
+
+        background-color: red;
     }
     
   .rec.rec-arrow {
@@ -29,8 +30,7 @@ export const Container = styled.div`
     visibility: hidden;
    }
     @media (max-width: 768px) {
-        margin: 0px;
-
+        display: none;
     }
 }
 

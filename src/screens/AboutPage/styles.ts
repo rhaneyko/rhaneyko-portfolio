@@ -5,14 +5,10 @@ export const Container = styled.div`
 
     height: 30vh;
 
-    align-items: center; 
-
-    background-color: blue;
-    
-
+    justify-content: center;
+    align-items: center;
     @media (max-width: 768px) {
         flex-direction: column;
-
     } 
 `;
 
@@ -29,7 +25,6 @@ export const About = styled.div`
     align-items: center;
     justify-content: center;
 
-    margin-left: 50%;
 
     cursor: pointer;
 
