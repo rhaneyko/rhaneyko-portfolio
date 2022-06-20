@@ -7,8 +7,12 @@ export const Container = styled.div`
 
     align-items: center; 
 
+    background-color: blue;
+    
+
     @media (max-width: 768px) {
         flex-direction: column;
+
     } 
 `;
 
@@ -33,6 +37,8 @@ export const About = styled.div`
         width: 100vw;
         height: 30vh;
         padding: 10px;
+        margin-left: 25%;
+
     }
 `;
 
