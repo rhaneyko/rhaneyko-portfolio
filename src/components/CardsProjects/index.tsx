@@ -1,6 +1,5 @@
 import React from 'react';
-//import Carousel from 'react-elastic-carousel'
-//import imageAbout from '../../assets/portfolioImage.png'
+import imagePortfolio from '../../assets/portfolioImage.png'
 
 import { 
     Container,
@@ -27,10 +26,10 @@ const CardsProjects = () => {
 
         <Container>
             <CardProject className='card transation'>
-              <Image/>
-            <ProjectName className='projectTitle'>Portifólio</ProjectName>
+              <Image src={imagePortfolio}/>
+            <ProjectName className='projectTitle'>Portfolio</ProjectName>
             <ProjectDescription className='projectDescription'>
-               Portifólio feito com React, TypeScript e para estilização usei Styled Components.
+               Portfolio feito com React, TypeScript e para estilização usei Styled Components.
             </ProjectDescription>
              <Buttons className='buttonsHover transation' >
                <ButtonViewLive onClick={LiveSite}>
