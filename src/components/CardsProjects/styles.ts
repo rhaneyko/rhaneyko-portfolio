@@ -16,7 +16,8 @@ export const CardProject = styled.div`
     margin-top: 30px;
     margin-bottom: 40px;
     padding: 0;
-
+    
+    z-index: 9999;
     position: relative;
 
     box-shadow: rgba(0, 0, 0, 2)  1px 1px 20px 1px;
