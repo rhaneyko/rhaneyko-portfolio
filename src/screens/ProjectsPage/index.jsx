@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from 'react-elastic-carousel';
+//import Carousel from 'react-elastic-carousel';
 import CardsProjects from '../../components/CardsProjects';
 import { 
     Container,
@@ -10,7 +10,7 @@ const ProjectsPage = () => {
   return (
     <Container id='projects'>
         <Title>Projetos</Title>
-        <Carousel
+        {/* <Carousel
           breakPoints={
             [
               { width: 1, itemsToShow: 1, itemsToScroll: 1 },
@@ -31,7 +31,9 @@ const ProjectsPage = () => {
           <CardsProjects/>
           <CardsProjects/>
           <CardsProjects/>
-        </Carousel>
+        </Carousel> */}
+         
+        <CardsProjects/>
     </Container>
   )
 }
