@@ -11,7 +11,7 @@ import {
     ButtonGitRepo,
     ButtonGitRepoText,
      } from './styles'
-import imageAbout from '../../assets/images/about.png'
+import imageAbout from '../../../src/assets/images/portfolioImage.png'
 const CardsProjects = () => {
     const GitHubRepo = () => {
         window.open('https://github.com/rhaneyko/rhaneyko-portifolio')

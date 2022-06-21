@@ -58,7 +58,7 @@ export const CardProject = styled.div`
 
 export const Image = styled.img`
    width: 21vw;
-   height: 30vh;
+   height: 18vh;
 
    @media (max-width: 768px) {
         width:  70vw;
