@@ -1,5 +1,4 @@
 import React from 'react';
-//import Carousel from 'react-elastic-carousel'
 import { 
     Container,
     CardProject,
@@ -12,7 +11,7 @@ import {
     ButtonGitRepo,
     ButtonGitRepoText,
      } from './styles'
-
+import imageAbout from '../../assets/images/about.png'
 const CardsProjects = () => {
     const GitHubRepo = () => {
         window.open('https://github.com/rhaneyko/rhaneyko-portifolio')
@@ -22,10 +21,9 @@ const CardsProjects = () => {
     }
 
     return(
-
         <Container>
             <CardProject className='card transation'>
-              <Image/>
+              <Image src={imageAbout}/>
             <ProjectName className='projectTitle'>Portfolio</ProjectName>
             <ProjectDescription className='projectDescription'>
                Portfolio feito com React, TypeScript e para estilização usei Styled Components.

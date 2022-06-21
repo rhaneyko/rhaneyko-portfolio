@@ -11,13 +11,14 @@ import styled from 'styled-components';
     
      background-color: ${props => props.theme.colors.navBackground};
      box-shadow: 1px 1px 10px 1px #000;
-
+     
+     z-index: 2;
      position: fixed;
 
      backdrop-filter: blur(6px);
 
      margin: auto;
-
+   
      top: 0;
      left: 0;
      width: 100%;

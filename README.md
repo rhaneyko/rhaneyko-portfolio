@@ -5,7 +5,7 @@
 
 ## 🎨 Layout
 
-![image]('../../src/assets/portfolioImage.png')
+![image](https://github.com/rhaneyko/rhaneyko-portifolio/blob/master/src/assets/portfolioImage.png)
 
 ## Tecnologias
 

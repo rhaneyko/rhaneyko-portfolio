@@ -17,7 +17,7 @@ export const CardProject = styled.div`
     margin-bottom: 40px;
     padding: 0;
     
-    z-index: 9999;
+    z-index: 1;
     position: relative;
 
     box-shadow: rgba(0, 0, 0, 2)  1px 1px 20px 1px;
@@ -47,21 +47,21 @@ export const CardProject = styled.div`
     }
 
     @media (max-width: 768px) {
-        width:  80vw;
+        width:  70vw;
         height: 22vh;
 
         :hover{
-          height: 28vh;
+          height: 25vh;
         }
     }
 `;
 
 export const Image = styled.img`
    width: 21vw;
-   height: 18vh;
+   height: 30vh;
 
    @media (max-width: 768px) {
-        width:  80vw;
+        width:  70vw;
         height: 18vh;
    }
 `;
