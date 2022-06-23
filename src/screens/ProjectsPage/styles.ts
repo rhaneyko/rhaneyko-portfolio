@@ -118,6 +118,7 @@ export const ProjectName = styled.p`
 `;
 
 export const ProjectDescription = styled.p`
+   display: none;
    height: 10vh;
 
    z-index: 9999;
