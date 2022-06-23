@@ -1,36 +1,79 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import Carousel from 'react-elastic-carousel';
-import CardsProjects from '../../components/CardsProjects';
+import imageAbout from '../../assets/images/portfolioImage.png';
 import { 
     Container,
     Title,
+    CardProject,
+    ProjectName,
+    Image,
+    ProjectDescription,
+    Buttons,
+    ButtonViewLive,
+    ButtonViewLiveText,
+    ButtonGitRepo,
+    ButtonGitRepoText,
    
      } from './styles'
 
 const ProjectsPage = () => {
+    const response = [
+      {  
+        id: 1,
+        title: 'Portifolio',
+        url: '../assets/images/portfolioImage.png',
+        description: 'Portfolio feito com React, TypeScript e para estilização usei Styled Components.',
+        liveSite: 'https://rhaneyko-honorio.netlify.app/',
+        gitHubRepo: 'https://github.com/rhaneyko/rhaneyko-portifolio'
+      },
+      {
+        id: 2,
+        title: 'Sistema de Validação',
+        url: '../assets/images/signinsignupImage.jpg',
+        description: 'Esse Sistema de criação e autenticação de usuário foi criado com React. Utilizei JavaScript, TypeScript e para estilização utilizei Styled Components.',
+        liveSite: 'https://sistemasvalidacao.netlify.app/'
+      },
+      {
+        id: 3,
+        title: 'Sistema de Validação',
+        url: '../assets/images/signinsignupImage.jpg',
+        description: 'Repositório do projeto',
+        liveSite: 'https://sistemascadastro.netlify.app/'
+      }
+
+    ]
+      
+     const [projects, setProjects] = useState(response)
+useEffect(() => {
+    setProjects(response)
+})
 
 
   return (
     <Container id='projects'>
         <Title>Projetos</Title>
         <Carousel
-          breakPoints={
-            [
-              { width: 1, itemsToShow: 1, itemsToScroll: 1 },
-              { width: 550, itemsToShow: 1, itemsToScroll: 1 },
-              { width: 768, itemsToShow: 1, itemsToScroll: 1 },
-              { width: 1200, itemsToShow: 2, itemsToScroll: 2 },
-              { width: 1600, itemsToShow: 2, itemsToScroll: 2 },
-            ]
-          }
           showArrows={true}
           enableAutoPlay={true}
           autoPlaySpeed={3000}
           itemsToShow={2}
           itemsToScroll={2}
           >
-          <CardsProjects/> 
-          <CardsProjects/>
+          {projects.map(project => (
+                <CardProject key={project.id}>
+                    <Image src={imageAbout}/>
+                    <ProjectName>{project.title}</ProjectName>
+                    <ProjectDescription>{project.description}</ProjectDescription>
+                    <Buttons>
+                        <ButtonViewLive onClick={project.liveSite}>
+                            <ButtonViewLiveText>Ver Live Site</ButtonViewLiveText>
+                        </ButtonViewLive>
+                        <ButtonGitRepo onClick={project.gitHubRepo}>
+                            <ButtonGitRepoText>Ver GitHub</ButtonGitRepoText>
+                        </ButtonGitRepo>
+                    </Buttons>
+                </CardProject>
+            ))}
         </Carousel>
     </Container>
   )

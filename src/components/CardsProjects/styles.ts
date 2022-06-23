@@ -12,7 +12,7 @@ export const CardProject = styled.div`
     height: 22vh;
 
     align-items: center;
-    
+    margin-right: 50px;
     margin-top: 30px;
     margin-bottom: 40px;
     padding: 0;
