@@ -54,8 +54,6 @@ useEffect(() => {
         <Title>Projetos</Title>
         <Carousel
           showArrows={true}
-          enableAutoPlay={true}
-          autoPlaySpeed={3000}
           itemsToShow={2}
           itemsToScroll={2}
           >
