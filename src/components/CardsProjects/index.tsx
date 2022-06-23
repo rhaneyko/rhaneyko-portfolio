@@ -22,7 +22,7 @@ const CardsProjects = () => {
 
     return(
         <Container>
-            <CardProject className='card transation'>
+            {/* <CardProject className='card transation'>
               <Image src={imageAbout}/>
             <ProjectName className='projectTitle'>Portfolio</ProjectName>
             <ProjectDescription className='projectDescription'>
@@ -36,9 +36,11 @@ const CardsProjects = () => {
                   <ButtonGitRepoText  >GitHub Repo</ButtonGitRepoText>
                </ButtonGitRepo>
              </Buttons>
-            </CardProject>
+            </CardProject> */}
+            
         </Container>
     )
 }
 
 export default CardsProjects;
+

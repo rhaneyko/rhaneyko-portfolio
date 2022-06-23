@@ -4,9 +4,12 @@ import CardsProjects from '../../components/CardsProjects';
 import { 
     Container,
     Title,
+   
      } from './styles'
 
 const ProjectsPage = () => {
+
+
   return (
     <Container id='projects'>
         <Title>Projetos</Title>
@@ -26,9 +29,7 @@ const ProjectsPage = () => {
           itemsToShow={2}
           itemsToScroll={2}
           >
-          <CardsProjects/>
-          <CardsProjects/>
-          <CardsProjects/>
+          <CardsProjects/> 
           <CardsProjects/>
         </Carousel>
     </Container>
