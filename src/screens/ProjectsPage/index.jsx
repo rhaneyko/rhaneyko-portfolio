@@ -21,9 +21,11 @@ import dataProjects from '../../assets/Data/projectsDatas.json'
 
 const ProjectsPage = () => {
     const [projects, setProjects] = useState(dataProjects)
-useEffect(() => {
-    setProjects(dataProjects)
-})
+
+    useEffect(() => {
+        setProjects(dataProjects)
+    }
+    , [])
 
 
   return (
