@@ -46,7 +46,7 @@ const ProjectsPage = () => {
                </ProjectDescription>
                <Buttons className='buttonsHover transation'>
                   <ButtonViewLive onClick={
-                    () => window.open(project.liveSite)
+                    () => window.open(project.liveSite, '_blank')
                   }
                    >
                     <ButtonViewLiveText>Live site</ButtonViewLiveText>
