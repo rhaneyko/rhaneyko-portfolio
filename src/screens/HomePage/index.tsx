@@ -1,5 +1,4 @@
 import React from 'react'
-import body from '../../styles/GlobalStyles'
 import { 
     Container,
     Main,
