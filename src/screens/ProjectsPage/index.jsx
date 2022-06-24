@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import Carousel from 'react-elastic-carousel';
-import imageAbout from '../../assets/images/portfolioImage.png';
+//import Carousel from 'react-elastic-carousel';
+
 import { 
     Container,
     Title,
+    Cards,
     CardProject,
     ProjectName,
     Image,
@@ -15,51 +16,28 @@ import {
     ButtonGitRepoText,
    
      } from './styles'
+import dataProjects from '../../assets/Data/projectsDatas.json'
+
 
 const ProjectsPage = () => {
-    const response = [
-      {  
-        id: 1,
-        title: 'Portifolio',
-        url: '../assets/images/portfolioImage.png',
-        description: 'Portfolio feito com React, TypeScript e para estilização usei Styled Components.',
-        liveSite: 'https://rhaneyko-honorio.netlify.app/',
-        gitHubRepo: 'https://github.com/rhaneyko/rhaneyko-portifolio'
-      },
-      {
-        id: 2,
-        title: 'Sistema de Validação',
-        url: '../assets/images/signinsignupImage.jpg',
-        description: 'Esse Sistema de criação e autenticação de usuário foi criado com React. Utilizei JavaScript, TypeScript e para estilização utilizei Styled Components.',
-        liveSite: 'https://sistemasvalidacao.netlify.app/'
-      },
-      {
-        id: 3,
-        title: 'Sistema de Validação',
-        url: '../assets/images/signinsignupImage.jpg',
-        description: 'Repositório do projeto',
-        liveSite: 'https://sistemascadastro.netlify.app/'
-      }
-
-    ]
-      
-     const [projects, setProjects] = useState(response)
+    const [projects, setProjects] = useState(dataProjects)
 useEffect(() => {
-    setProjects(response)
+    setProjects(dataProjects)
 })
 
 
   return (
     <Container id='projects'>
         <Title>Projetos</Title>
-        <Carousel
+        {/* //<Carousel
           showArrows={true}
           itemsToShow={2}
           itemsToScroll={2}
-          >
+          > */}
+          <Cards>
           {projects.map(project => (
             <CardProject key={project.id} className='card transation'>
-              <Image src={imageAbout}/>
+              <Image src={project.url}/>
               <ProjectName className='projectTitle'>{project.title}</ProjectName>
                <ProjectDescription className='projectDescription'>
                   {project.description}
@@ -74,7 +52,8 @@ useEffect(() => {
                 </Buttons>
             </CardProject>
           ))}
-        </Carousel>
+          </Cards>
+        {/* </Carousel> */}
     </Container>
   )
 }

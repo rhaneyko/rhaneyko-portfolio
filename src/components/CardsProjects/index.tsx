@@ -11,43 +11,43 @@ import {
     ButtonGitRepo,
     ButtonGitRepoText,
      } from './styles'
-import imageAbout from '../../../src/assets/images/portfolioImage.png'
-const CardsProjects = () => {
-    const GitHubRepo = () => {
-        window.open('https://github.com/rhaneyko/rhaneyko-portifolio')
-    }
-    const LiveSite = () => {
-        window.open('https://rhaneyko-honorio.netlify.app/')
-    }
 
-    const response = [
-        {  
-            id: 1,
-            title: 'Portifolio',
-            url: '../assets/images/portfolioImage.png',
-            description: 'Portfolio feito com React, TypeScript e para estilização usei Styled Components.',
-            liveSite: 'https://rhaneyko-honorio.netlify.app/',
-        },
-        {
-            id: 2,
-            title: 'Sistema de Validação',
-            url: '../assets/images/signinsignupImage.jpg',
-            description: 'Repositório do projeto',
-            liveSite: 'https://sistemasvalidacao.netlify.app/'
-        },
-        {
-            id: 3,
-            title: 'Sistema de Cadastro',
-            url: '../assets/images/signinsignupImage.jpg',
-            description: 'Repositório do projeto',
-            liveSite: 'https://sistemascadastro.netlify.app/'
-        }
-    ]
+const CardsProjects = () => {
+    // const GitHubRepo = () => {
+    //     window.open('https://github.com/rhaneyko/rhaneyko-portifolio')
+    // }
+    // const LiveSite = () => {
+    //     window.open('https://rhaneyko-honorio.netlify.app/')
+    // }
+
+    // const response = [
+    //     {  
+    //         id: 1,
+    //         title: 'Portifolio',
+    //         url: '../assets/images/portfolioImage.png',
+    //         description: 'Portfolio feito com React, TypeScript e para estilização usei Styled Components.',
+    //         liveSite: 'https://rhaneyko-honorio.netlify.app/',
+    //     },
+    //     {
+    //         id: 2,
+    //         title: 'Sistema de Validação',
+    //         url: '../assets/images/signinsignupImage.jpg',
+    //         description: 'Repositório do projeto',
+    //         liveSite: 'https://sistemasvalidacao.netlify.app/'
+    //     },
+    //     {
+    //         id: 3,
+    //         title: 'Sistema de Cadastro',
+    //         url: '../assets/images/signinsignupImage.jpg',
+    //         description: 'Repositório do projeto',
+    //         liveSite: 'https://sistemascadastro.netlify.app/'
+    //     }
+    // ]
           
-    const [projects, setProjects] = useState(response)
-    useEffect(() => {
-        setProjects(response)
-    }, [])
+    // const [projects, setProjects] = useState(response)
+    // useEffect(() => {
+    //     setProjects(response)
+    // }, [])
     return (
         <Container>
             {/* {projects.map(project => (

@@ -41,6 +41,14 @@ export const Title = styled.h1`
     font-size: 2rem;
     color: ${props => props.theme.colors.title};
 
+    margin-bottom: 30px;
+
+`;
+
+export const Cards = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 `;
 
 export const CardProject = styled.div`
@@ -52,8 +60,7 @@ export const CardProject = styled.div`
 
     align-items: center;
     
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin: 30px 40px;
     padding: 0;
     
     z-index: 1;
@@ -107,7 +114,7 @@ export const Image = styled.img`
 
 export const ProjectName = styled.p`
    z-index: 9999;
-   font-size: 2rem;
+   font-size: 1.5rem;
     
    color: ${props => props.theme.colors.title};
    
@@ -124,7 +131,7 @@ export const ProjectDescription = styled.p`
    z-index: 9999;
 
    margin: 2%;
-   font-size: 1rem;
+   font-size: 0.9rem;
    line-height: 1.4rem;
    
    color: ${props => props.theme.colors.text};
@@ -143,14 +150,11 @@ export const Buttons = styled.div`
     position: absolute;
     z-index: 9999;
 
-
     @media(max-width: 768px) {
         display: inline;
         margin-top: 3rem;
-
     }
 `;
-
 
 export const ButtonViewLive = styled.button`
     width: 7vw;
