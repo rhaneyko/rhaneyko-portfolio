@@ -45,15 +45,10 @@ const ProjectsPage = () => {
                   {project.description}
                </ProjectDescription>
                <Buttons className='buttonsHover transation'>
-                  <ButtonViewLive onClick={
-                    () => window.open(project.liveSite, '_blank')
-                  }
-                   >
+                  <ButtonViewLive onClick={() => window.open(project.liveSite, '_blank')}>
                     <ButtonViewLiveText>Live site</ButtonViewLiveText>
                   </ButtonViewLive>
-                  <ButtonGitRepo onClick={
-                    () => window.open(project.github)
-                  }>
+                  <ButtonGitRepo onClick={() => window.open(project.github)}>
                     <ButtonGitRepoText>GitHub</ButtonGitRepoText>
                   </ButtonGitRepo>
                 </Buttons>
