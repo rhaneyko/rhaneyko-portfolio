@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Linking } from 'react';
 //import Carousel from 'react-elastic-carousel';
 
 import { 
@@ -21,14 +21,32 @@ import dataProjects from '../../assets/Data/projectsDatas.json'
 
 const ProjectsPage = () => {
     const [projects, setProjects] = useState(dataProjects)
+    
 
     useEffect(() => {
         setProjects(dataProjects)
     }
     , [])
 
+    const links = [
+        {
+            id: 1,
+            name: 'View Live',
+            url: 'https://sistemasvalidacao.netlify.app/'
+        },
+        {
+            id: 2,
+            name: 'Git Repo',
+            url: 'https://github.com/rhaneyko/signin-signup-auth'
+        }
+    ]
 
-  return (
+
+
+
+
+
+    return (
     <Container id='projects'>
         <Title>Projetos</Title>
         {/* //<Carousel
@@ -45,11 +63,16 @@ const ProjectsPage = () => {
                   {project.description}
                </ProjectDescription>
                <Buttons className='buttonsHover transation'>
-                  <ButtonViewLive onClick={project.liveSite}>
-                    <ButtonViewLiveText>Ver Live Site</ButtonViewLiveText>
+                  <ButtonViewLive onClick={
+                    () => window.open(project.liveSite)
+                  }
+                   >
+                    <ButtonViewLiveText>Live site</ButtonViewLiveText>
                   </ButtonViewLive>
-                  <ButtonGitRepo onClick={project.gitHubRepo}>
-                    <ButtonGitRepoText>Ver GitHub</ButtonGitRepoText>
+                  <ButtonGitRepo onClick={
+                    () => window.open(project.github)
+                  }>
+                    <ButtonGitRepoText>GitHub</ButtonGitRepoText>
                   </ButtonGitRepo>
                 </Buttons>
             </CardProject>
