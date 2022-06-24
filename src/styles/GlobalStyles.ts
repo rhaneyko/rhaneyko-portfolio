@@ -8,8 +8,10 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body{
-
+    width: 100%;
     background-color: ${props => props.theme.colors.background};
+    align-items: center;
+    justify-content: center;
     
     font-family: 'Allerta Stencil', sans-serif;
   }

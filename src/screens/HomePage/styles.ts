@@ -6,6 +6,8 @@ export const Container = styled.div`
 
     align-items: center;
     @media (max-width: 768px) {
+        width: 125%;
+
         height: 40vh;
 
         margin-top: 10%;
@@ -27,7 +29,7 @@ export const Main = styled.div`
     padding-left: 3.5rem;
 
     @media ( max-width: 768px ) {
-        width: 98%;
+        width: 100%;
 
         padding-left: 0;
     }

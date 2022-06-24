@@ -1,4 +1,5 @@
 import React from 'react'
+import body from '../../styles/GlobalStyles'
 import { 
     Container,
     Main,
@@ -21,7 +22,6 @@ const HomePage: React.FC  = () => {
   
 
   return (
-
     <Container className='Home' id='home'>
         <Main>
             <Gretting>Olá, meu nome é</Gretting>
@@ -34,10 +34,8 @@ const HomePage: React.FC  = () => {
               <ButtonCv onClick={(downloadCv)}>
                   <ButtonTextCv>Currículo</ButtonTextCv>
               </ButtonCv>
-
         </Main>
-            
-    </Container> 
+    </Container>
   )
 }
 export default HomePage;

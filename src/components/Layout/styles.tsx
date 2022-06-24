@@ -1,18 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-`;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 
-
-export const Wrapper = styled.div`
-   width: 100%;
-   max-width: 1904px;
-   
-   margin: 0;
-
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-
-   
 `;

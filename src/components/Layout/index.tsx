@@ -1,4 +1,4 @@
-import { Container, Wrapper, } from './styles'
+import { Container} from './styles'
 
 import AboutPage from '../../screens/AboutPage';
 import ContactPage from '../../screens/ContactPage';
@@ -6,19 +6,17 @@ import HomePage from '../../screens/HomePage';
 import ProjectsPage from '../../screens/ProjectsPage';
 import CopyrightPage from '../../screens/CopyrightPage';
 
+import body from '../../styles/GlobalStyles'
+
 const Layout = () => {
   return (
-     <>
-    <Container>
-      <Wrapper>
+    <body>
         <HomePage/>
         <AboutPage/>
         <ProjectsPage/>
         <ContactPage/>
         <CopyrightPage/>
-      </Wrapper>
-    </Container>
-     </>
+    </body>
     );
 }
 

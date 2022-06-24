@@ -8,10 +8,10 @@ export const Container = styled.div`
 
     justify-content: center;
     align-items: center;
-
     margin-top: 100px;
+
     @media (max-width: 768px) {
-        width: 125vw;
+        width: 125%;
         height: 75vh;
         flex-direction: column;
     }

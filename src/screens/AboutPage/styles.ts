@@ -7,8 +7,10 @@ export const Container = styled.div`
 
     justify-content: center;
     align-items: center;
+
     @media (max-width: 768px) {
-        flex-direction: column;
+        width: 125%;
+        justify-content: center;
     } 
 `;
 
@@ -25,14 +27,16 @@ export const About = styled.div`
     align-items: center;
     justify-content: center;
 
+    background-color: white;
+
 
     cursor: pointer;
 
     @media (max-width: 768px) {
-        width: 100vw;
+        width: 100%;
         height: 30vh;
         padding: 10px;
-        margin-left: 25%;
+
 
     }
 `;

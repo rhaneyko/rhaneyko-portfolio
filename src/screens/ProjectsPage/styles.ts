@@ -4,16 +4,12 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
-    height: 50vh;
-
     align-items: center;
     justify-content: center;
+
     @media (max-width: 768px) {
-        width: 125vw;
-
-        margin-top: 20px;
-
-        background-color: red;
+        width: 125%;
+        margin-top: 60px;
     }
     
   .rec.rec-arrow {
@@ -33,8 +29,6 @@ export const Container = styled.div`
         display: none;
     }
 }
-
-
 `;
 
 export const Title = styled.h1`
@@ -42,21 +36,27 @@ export const Title = styled.h1`
     color: ${props => props.theme.colors.title};
 
     margin-bottom: 30px;
-
 `;
 
 export const Cards = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    @media (max-width: 768px) {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 
 export const CardProject = styled.div`
     display: flex;
     flex-direction: column;
 
-    width:  21vw;
-    height: 22vh;
+    width: 300px;
+    max-width: 100%;
 
     align-items: center;
     
@@ -93,23 +93,20 @@ export const CardProject = styled.div`
     }
 
     @media (max-width: 768px) {
-        width:  70vw;
-        height: 22vh;
+
+        margin: 20px;
 
         :hover{
-          height: 25vh;
+          height: 32vh;
         }
     }
 `;
 
 export const Image = styled.img`
-   width: 21vw;
-   height: 18vh;
+   width: 300px;
+   max-width: 100%;
 
-   @media (max-width: 768px) {
-        width:  70vw;
-        height: 18vh;
-   }
+   height: 150px;
 `;
 
 export const ProjectName = styled.p`
@@ -157,8 +154,8 @@ export const Buttons = styled.div`
 `;
 
 export const ButtonViewLive = styled.button`
-    width: 7vw;
-    height: 4vh; 
+    width: 100px;
+    height: 35px; 
     
     border: 1px  solid ${props => props.theme.colors.borderButton};
     border-radius: 5rem;
@@ -175,7 +172,7 @@ export const ButtonViewLive = styled.button`
     }
 
     @media (max-width: 768px) {
-        width: 26vw;
+        width: 100px;
     }
 `;
 
@@ -190,8 +187,8 @@ export const ButtonViewLiveText = styled.p`
 `;
 
 export const ButtonGitRepo = styled.button`
-    width: 7vw;
-    height: 4vh;
+    width: 100px;
+    height: 35px; 
     
     border: 1px solid ${props => props.theme.colors.borderButton};
     border-radius: 5rem;
@@ -208,7 +205,7 @@ export const ButtonGitRepo = styled.button`
 
     
     @media (max-width: 768px) {
-        width: 26vw;
+        width: 100px;
     }
 `;
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useState, Linking } from 'react';
+import { useEffect, useState } from 'react';
 //import Carousel from 'react-elastic-carousel';
 
 import { 
@@ -27,24 +27,6 @@ const ProjectsPage = () => {
         setProjects(dataProjects)
     }
     , [])
-
-    const links = [
-        {
-            id: 1,
-            name: 'View Live',
-            url: 'https://sistemasvalidacao.netlify.app/'
-        },
-        {
-            id: 2,
-            name: 'Git Repo',
-            url: 'https://github.com/rhaneyko/signin-signup-auth'
-        }
-    ]
-
-
-
-
-
 
     return (
     <Container id='projects'>
