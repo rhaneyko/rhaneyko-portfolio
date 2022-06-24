@@ -58,22 +58,22 @@ useEffect(() => {
           itemsToScroll={2}
           >
           {projects.map(project => (
-                <CardProject key={project.id} className='card transation'>
-                    <Image src={imageAbout}/>
-                    <ProjectName className='projectTitle'>{project.title}</ProjectName>
-                    <ProjectDescription className='projectDescription'>
-                      {project.description}
-                    </ProjectDescription>
-                    <Buttons className='buttonsHover transation'>
-                        <ButtonViewLive onClick={project.liveSite}>
-                            <ButtonViewLiveText>Ver Live Site</ButtonViewLiveText>
-                        </ButtonViewLive>
-                        <ButtonGitRepo onClick={project.gitHubRepo}>
-                            <ButtonGitRepoText>Ver GitHub</ButtonGitRepoText>
-                        </ButtonGitRepo>
-                    </Buttons>
-                </CardProject>
-            ))}
+            <CardProject key={project.id} className='card transation'>
+              <Image src={imageAbout}/>
+              <ProjectName className='projectTitle'>{project.title}</ProjectName>
+               <ProjectDescription className='projectDescription'>
+                  {project.description}
+               </ProjectDescription>
+               <Buttons className='buttonsHover transation'>
+                  <ButtonViewLive onClick={project.liveSite}>
+                    <ButtonViewLiveText>Ver Live Site</ButtonViewLiveText>
+                  </ButtonViewLive>
+                  <ButtonGitRepo onClick={project.gitHubRepo}>
+                    <ButtonGitRepoText>Ver GitHub</ButtonGitRepoText>
+                  </ButtonGitRepo>
+                </Buttons>
+            </CardProject>
+          ))}
         </Carousel>
     </Container>
   )
