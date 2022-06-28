@@ -16,7 +16,7 @@ const HomePage: React.FC  = () => {
   }
 
   const openCv = () => {
-      window.open('')
+      window.open('https://firebasestorage.googleapis.com/v0/b/todolist-b2715.appspot.com/o/CHEAT%20DO%20GIT.pdf?alt=media&token=3230db7f-a15d-4861-b11b-6952e6f6a280')
   }
   
 
