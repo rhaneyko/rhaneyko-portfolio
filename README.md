@@ -1,11 +1,11 @@
-# To do list 
+# Portifólio 
 
 ## Sobre o Projeto
   Esse Portfólio foi criado com React. Usei JavaScript, React, TypeScript e Styled Components.
 
 ## 🎨 Layout
 
-![image](https://github.com/rhaneyko/todolist/blob/main/src/assets/images/ToDoScreenshot.jpg)
+![image](https://github.com/rhaneyko/rhaneyko-portifolio/blob/master/src/assets/images/portfolioImage.png)
 
 ## Tecnologias
 
