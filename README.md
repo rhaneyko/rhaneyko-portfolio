@@ -27,4 +27,4 @@ https://rhaneykohonoriosite.netlify.app/
 
 Este projeto esta sobe a licença MIT.
 
-Feito por Rhaneyko Honorio da Silva - [Entre em contato!](https://www.linkedin.com/in/rhaneyko/)
+Feito por Rhaneyko Honorio da Silva - [Entre em contato!](https://www.linkedin.com/in/rhaneyko-honorio-73657819b)
