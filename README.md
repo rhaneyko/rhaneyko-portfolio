@@ -1,4 +1,4 @@
-# Portifólio 
+# To do list 
 
 ## Sobre o Projeto
   Esse Portfólio foi criado com React. Usei JavaScript, React, TypeScript e Styled Components.
