@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Portfolio",
     "url": "https://firebasestorage.googleapis.com/v0/b/rhaneyko-portifolio.appspot.com/o/portfolioImage.png?alt=media&token=2e135ca5-b5a4-47d3-97a2-6a97d737d724",
-    "description": "Portfolio feito com React, TypeScript e para estilização usei Styled Components.",
+    "description": "Portfolio criado com React e desenvolvido com TypeScript e para estilização usei Styled Components.",
     "liveSite": "rhaneykohonoriosite.netlify.app",
     "github": "https://github.com/rhaneyko/rhaneyko-portifolio"
   },
@@ -11,7 +11,7 @@
     "id": "2",
     "title": "Sistema de Validação",
     "url": "https://firebasestorage.googleapis.com/v0/b/rhaneyko-portifolio.appspot.com/o/signinScreenshot.jpg?alt=media&token=b8a099b6-df6c-4625-aa14-3963df52b778",
-    "description": "Sistema de validação feito com React, TypeScript e para estilização utilizei Styled Components.",
+    "description": "Sistema de validação criado com React e desenvolvido com TypeScript e para estilização utilizei Styled Components.",
     "liveSite": "https://sistemasvalidacao.netlify.app/",
     "github": "https://github.com/rhaneyko/signin-signup-auth"
   },
@@ -19,7 +19,7 @@
     "id": "3",
     "title": "To do List",
     "url": "https://firebasestorage.googleapis.com/v0/b/todolist-b2715.appspot.com/o/ToDoScreenshot.jpg?alt=media&token=90ef6384-195e-495c-90da-8c6a717b94be",
-    "description": "To do List feito com React, JavaScript, TypeScript e para estilização utilizei Styled Components.",
+    "description": "To do List feito criado com React e desenvolido com JavaScript, TypeScript e para estilização utilizei Styled Components.",
     "liveSite": "https://todolist.netlify.app/",
     "github": "https://github.com/rhaneyko/todolist"
   }
