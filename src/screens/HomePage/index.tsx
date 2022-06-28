@@ -15,8 +15,8 @@ const HomePage: React.FC  = () => {
     window.open('https://www.linkedin.com/in/rhaneyko-honorio-73657819b')
   }
 
-  const downloadCv = () => {
-    window.open('www.google.com')
+  const openCv = () => {
+      window.open('')
   }
   
 
@@ -30,7 +30,7 @@ const HomePage: React.FC  = () => {
               <ButtonLnkd onClick={(openLinkedin)}>
                   <ButtonTextLnkd>LinkedIn</ButtonTextLnkd>
               </ButtonLnkd>
-              <ButtonCv onClick={(downloadCv)}>
+              <ButtonCv onClick={(openCv)}>
                   <ButtonTextCv>Currículo</ButtonTextCv>
               </ButtonCv>
         </Main>

@@ -20,7 +20,7 @@ import {
 
  const ContactPage: React.FC = () => {
     const OpenLinkedin = () => {
-        window.open('https://www.linkedin.com/in/rhaneyko/')
+        window.open('https://www.linkedin.com/in/rhaneyko-honorio-73657819b')
     }
     const OpenGithub = () => {
         window.open('https://www.github.com/rhaneyko')
