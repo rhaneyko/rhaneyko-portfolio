@@ -57,6 +57,7 @@ export const CardProject = styled.div`
 
     width: 300px;
     max-width: 100%;
+    height: auto;
 
     align-items: center;
     
@@ -71,33 +72,27 @@ export const CardProject = styled.div`
 
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    :hover {
+        box-shadow: rgba(0, 0, 0, 2)  1px 1px 20px 1px;
+        transform: translateY(-10px);
 
-    &:hover {
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-
-        height: 30vh;
-
-        .transition { transition: .3s cubic-bezier(.3, 0, 0, 1.3) }
-        
         .buttonsHover{
             display: inline;
             margin-top: 5rem;
 
             @media (max-width: 768px) {
-                margin-top: 5%;
-            }
+                margin-top: 15%;
         }
-        .projectDescription{
-          display: inline;
         }
+        
     }
-
+    
     @media (max-width: 768px) {
 
         margin: 20px;
 
         :hover{
-          height: 32vh;
+          height: 260px;
         }
     }
 `;
@@ -111,7 +106,7 @@ export const Image = styled.img`
 
 export const ProjectName = styled.p`
    z-index: 9999;
-   font-size: 1.5rem;
+   font-size: 23px;
     
    color: ${props => props.theme.colors.title};
    
@@ -122,7 +117,7 @@ export const ProjectName = styled.p`
 `;
 
 export const ProjectDescription = styled.p`
-   display: none;
+   display: flex;
    height: 10vh;
 
    z-index: 9999;
@@ -134,7 +129,7 @@ export const ProjectDescription = styled.p`
    color: ${props => props.theme.colors.text};
 
    @media (max-width: 768px) {
-        display: none;
+        display: inline;
 
         font-size: 0.9rem;
    }

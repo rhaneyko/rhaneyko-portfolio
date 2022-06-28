@@ -36,7 +36,7 @@ const ProjectsPage = () => {
           itemsToShow={2}
           itemsToScroll={2}
           > */}
-          <Cards>
+        <Cards>
           {projects.map(project => (
             <CardProject key={project.id} className='card transation'>
               <Image src={project.url}/>
