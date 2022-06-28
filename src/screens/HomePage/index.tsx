@@ -11,14 +11,14 @@ import {
      } from './styles'
 
 const HomePage: React.FC  = () => {
+
   const openLinkedin = () => {
     window.open('https://www.linkedin.com/in/rhaneyko-honorio-73657819b')
   }
 
   const openCv = () => {
-      window.open('https://firebasestorage.googleapis.com/v0/b/todolist-b2715.appspot.com/o/CHEAT%20DO%20GIT.pdf?alt=media&token=3230db7f-a15d-4861-b11b-6952e6f6a280')
+    window.open('https://firebasestorage.googleapis.com/v0/b/rhaneyko-portifolio.appspot.com/o/Rhaneyko%20Cv%20PT.pdf?alt=media&token=c8cbb576-4ba3-436e-8b67-2b610f90173c')
   }
-  
 
   return (
     <Container className='Home' id='home'>
