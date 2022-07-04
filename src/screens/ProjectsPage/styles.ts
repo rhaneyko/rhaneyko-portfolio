@@ -57,7 +57,7 @@ export const CardProject = styled.div`
 
     width: 300px;
     max-width: 100%;
-    height: auto;
+    height: 290px;
 
     align-items: center;
     
