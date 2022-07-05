@@ -10,7 +10,7 @@
   {
     "id": "2",
     "title": "Sistema de Validação",
-    "url": "https://firebasestorage.googleapis.com/v0/b/rhaneyko-portifolio.appspot.com/o/signinScreenshot.jpg?alt=media&token=b8a099b6-df6c-4625-aa14-3963df52b778",
+    "url": "https://firebasestorage.googleapis.com/v0/b/rhaneyko-portifolio.appspot.com/o/signinsignupImage.jpg?alt=media&token=5aad253e-e7ae-45df-8f52-d0428ae6a665",
     "description": "Sistema de validação criado com React e desenvolvido com TypeScript e para estilização utilizei Styled Components.",
     "liveSite": "https://sistemasvalidacao.netlify.app/",
     "github": "https://github.com/rhaneyko/signin-signup-auth"
