@@ -123,7 +123,7 @@ export const ProjectDescription = styled.p`
    z-index: 9999;
 
    margin: 2%;
-   font-size: 0.9rem;
+   font-size: 0.8rem;
    line-height: 1.4rem;
    
    color: ${props => props.theme.colors.text};
