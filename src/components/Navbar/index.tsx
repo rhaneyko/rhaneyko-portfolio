@@ -36,7 +36,10 @@ const Navbar: React.FC = () => {
    return(
            <Container className='headerContainer flexSB' >
              <Router>
-               <LogoName>&lt;Rhaneyko/&gt;</LogoName>
+               <LogoName
+                smooth to='#home'>
+                <p>&lt;Rhaneyko/&gt;</p>
+                </LogoName>
                <Bars onClick={navToggle} className={icon}/>
              <NavMenu className={active} >
                <NavHashLink smooth to='#home'>

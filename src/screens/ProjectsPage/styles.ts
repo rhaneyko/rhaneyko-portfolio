@@ -57,7 +57,7 @@ export const CardProject = styled.div`
 
     width: 300px;
     max-width: 100%;
-    height: 290px;
+    height: 265px;
 
     align-items: center;
     
@@ -88,12 +88,9 @@ export const CardProject = styled.div`
     }
     
     @media (max-width: 768px) {
+        height: 285px;
 
         margin: 20px;
-
-        :hover{
-          height: 260px;
-        }
     }
 `;
 

@@ -1,5 +1,6 @@
 import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 import styled from 'styled-components';
 
  export const Container = styled.header`
@@ -112,14 +113,17 @@ export const NavLink = styled(Link)`
 }
 `;
 
- export const LogoName = styled.h1`
-     color: ${props => props.theme.colors.title};
-     font-family: 'Allerta Stencil', sans-serif;
-     font-size: 2rem;
+ export const LogoName = styled(NavHashLink)`
+  p{
+    text-transform: capitalize;
+    color: ${props => props.theme.colors.title};
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 1.8rem;
 
      @media (max-width: 768px) {
         font-size: 1.5rem;
      }
+    }
  `;
 
  export const Bars = styled(FaBars)`
