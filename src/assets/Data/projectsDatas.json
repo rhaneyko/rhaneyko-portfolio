@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Sistema de Validação",
     "url": "https://firebasestorage.googleapis.com/v0/b/rhaneyko-portifolio.appspot.com/o/signinsignupImage.jpg?alt=media&token=5aad253e-e7ae-45df-8f52-d0428ae6a665",
-    "description": "Sistema de validação criado com React e usei Auth, TypeScript e para estilização utilizei Styled Components.",
+    "description": "Sistema de validação criado com React e usei TypeScript e para estilização utilizei Styled Components.",
     "liveSite": "https://sistemasvalidacao.netlify.app/",
     "github": "https://github.com/rhaneyko/signin-signup-auth"
   },
@@ -11,7 +11,7 @@
     "id": "2",
     "title": "To do List",
     "url": "https://firebasestorage.googleapis.com/v0/b/todolist-b2715.appspot.com/o/ToDoScreenshot.jpg?alt=media&token=90ef6384-195e-495c-90da-8c6a717b94be",
-    "description": "To do List criado com React e desenvolido com JavaScript, TypeScript e para estilização utilizei Styled Components.",
+    "description": "To do List criado com React, desenvolido com JavaScript, TypeScript e estilizado com Styled Components.",
     "liveSite": "https://todolistlivesite.netlify.app/",
     "github": "https://github.com/rhaneyko/to-do-list"
   },
@@ -19,7 +19,7 @@
     "id": "3",
     "title": "Search Item List",
     "url": "https://firebasestorage.googleapis.com/v0/b/rhaneyko-portifolio.appspot.com/o/searchItemScreenshot.jpg?alt=media&token=a9af3d23-68a8-42ea-b712-353d24c4a3e0",
-    "description": "Search Item List criado com React e desenvolido com JavaScript, TypeScript e para estilização utilizei Styled Components.",
+    "description": "Search Item List criado com React, desenvolido com JavaScript, TypeScript e Styled Components.",
     "liveSite": "https://searchitemlist.netlify.app/",
     "github": "https://github.com/rhaneyko/search-list"
   },
@@ -27,7 +27,7 @@
     "id": "4",
     "title": "Twitter Profile Clone",
     "url": "https://firebasestorage.googleapis.com/v0/b/twitter-clone-546f0.appspot.com/o/twitterCloneScreenshot.jpg?alt=media&token=14dc64be-7938-4c70-a009-9bfae7c11c9e",
-    "description": "Projeto criado com React. Desenvolvido com TypeScript e Styled Components. Feito para simular a página de perfil do Twitter.",
+    "description": "Criado com React. Desenvolvido com TypeScript e Styled Components. Feito para simular a página de perfil do Twitter.",
     "liveSite": "https://twitterprofileclone.netlify.app/",
     "github": "https://github.com/rhaneyko/twitter-profile-clone"
   }
