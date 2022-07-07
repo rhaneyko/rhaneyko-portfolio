@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Carousel from 'react-elastic-carousel';
+// import Carousel from 'react-elastic-carousel';
 
 import { 
     Container,
@@ -32,11 +32,11 @@ const ProjectsPage = () => {
     return (
     <Container id='projects'>
         <Title>Projetos</Title>
-        <Carousel
+        {/* <Carousel
           showArrows={true}
           itemsToShow={2}
           itemsToScroll={2}
-          > 
+          >  */}
         <Cards>
           {projects.map(project => (
             <CardProject key={project.id} className='card transation'>
@@ -56,7 +56,7 @@ const ProjectsPage = () => {
             </CardProject>
           ))}
           </Cards>
-        </Carousel>
+        {/* </Carousel> */}
     </Container>
   )
 }
