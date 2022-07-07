@@ -25,10 +25,10 @@
   },
   {
     "id": "4",
-    "title": "Twitter Clone",
+    "title": "Twitter Profile Clone",
     "url": "https://firebasestorage.googleapis.com/v0/b/rhaneyko-portifolio.appspot.com/o/searchItemScreenshot.jpg?alt=media&token=a9af3d23-68a8-42ea-b712-353d24c4a3e0",
     "description": "Projeto criado com React. Desenvolvido com TypeScript e Styled Components. Feito para simular a página de perfil do Twitter.",
-    "liveSite": "https://magical-twilight-f73086.netlify.app/",
+    "liveSite": "https://twitterprofileclone.netlify.app/",
     "github": "https://github.com/rhaneyko/twitter-profile-clone"
   }
 ]
