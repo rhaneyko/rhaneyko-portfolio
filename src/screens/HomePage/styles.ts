@@ -5,11 +5,11 @@ export const Container = styled.div`
     height: 50vh;
 
     align-items: center;
+    
     @media (max-width: 768px) {
         width: 125%;
 
         height: 40vh;
-
         margin-top: 10%;
     }
 `;

@@ -11,7 +11,6 @@ import {
      } from './styles'
 
 const HomePage: React.FC  = () => {
-
   const openLinkedin = () => {
     window.open('https://www.linkedin.com/in/rhaneyko-honorio-73657819b')
   }
