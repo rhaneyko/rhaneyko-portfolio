@@ -21,7 +21,7 @@ export const Container = styled.div`
 export const Title = styled.h1`
    
 
-    margin-right: 10vw;
+    //margin-right: 10vw;
     margin-bottom: 10vw;
 
     font-size: 2rem;
@@ -35,7 +35,7 @@ export const Title = styled.h1`
 `; 
 
 export const Contacts = styled.div`
-    margin-left: -300px;
+    //margin-left: -300px;
     margin-top: 80px;
     margin-bottom: 100px;
 
