@@ -43,7 +43,7 @@ export const Cards = styled.div`
     flex-direction: row;
     justify-content: space-between;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1440px) {
         width: 100%;
         flex-direction: column;
         justify-content: center;
