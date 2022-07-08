@@ -34,24 +34,31 @@ import {
         window.open('mailto: rhaneykohonorio@gmail.com')
     }
 
-    //const [name, setName] = React.useState('');
-    //const [email, setEmail] = React.useState('');
-    //const [message, setMessage] = React.useState('');
+    const [name, setName] = React.useState('');
+    const [email, setEmail] = React.useState('');
+    const [message, setMessage] = React.useState('');
 
-    // const onChangeName = (textName: string) => {
-    //   setName(textName)
-    // }
-    // const onChangeEmail = (textEmail: string) => {
-    //   setEmail(textEmail)
-    // }
-    // const onChangeMessage = (textMessage: string) => {
-    //   setMessage(textMessage)
-    // }
+     const onChangeName = (textName: string) => {
+       setName(textName)
+     }
+     const onChangeEmail = (textEmail: string) => {
+       setEmail(textEmail)
+     }
+     const onChangeMessage = (textMessage: string) => {
+       setMessage(textMessage)
+     }
 
-    // const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    //     e.preventDefault();
-    //     console.log(name, email, message);
-    // }
+     const onSubmit = () => {
+        localStorage.setItem('name', name)
+        localStorage.setItem('email', email)
+        localStorage.setItem('message', message)
+
+        setName('')
+        setEmail('')
+        setMessage('')
+
+        alert('Mensagem enviada com sucesso!')
+     }
     return(
         <Container id='contact' >
 
@@ -73,26 +80,33 @@ import {
             </Contacts>
 
      <Form 
-        action='https://formsubmit.co/rhaneykohonorio@gmail.com'
-        method='POST'
         >
             <Input 
               placeholder='Seu nome' 
               color='white'
               name='name'
+              value={name}
+              onChange={(textName) => onChangeName(textName.target.value)}
               required
               />
             <Input 
               placeholder='Seuemail@email.com'
               name='email'
+              value={email}
+              onChange={(textEmail) => onChangeEmail(textEmail.target.value)}
               required
               />
             <TextArea 
               placeholder='Escreva sua mensagem aqui...' 
               name='message' 
+              value={message}
+              onChange={(textMessage) => onChangeMessage(textMessage.target.value)}
               required
             />
-            <Button type='submit'>  
+            <Button 
+            onClick={onSubmit}
+              
+            type='submit'>  
                 <ButtonTitle>Enviar</ButtonTitle>
             </Button>
      </Form>    
