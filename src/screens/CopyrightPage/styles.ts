@@ -12,7 +12,7 @@ export const Container = styled.div`
     background-color: ${props => props.theme.colors.title};
 
     @media (max-width: 768px) {
-        width: 100%;
+        width: 125%;
     }
 `;
 
