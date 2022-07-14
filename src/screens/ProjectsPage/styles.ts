@@ -4,6 +4,8 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
 
+    height: 50vh;
+
     align-items: center;
     justify-content: center;
 
@@ -39,7 +41,9 @@ export const Title = styled.h1`
 `;
 
 export const Cards = styled.div`
-    display: flex;
+    display: grid;
+    grid: 265px / auto auto auto auto;
+    
     flex-direction: row;
     justify-content: space-between;
 
