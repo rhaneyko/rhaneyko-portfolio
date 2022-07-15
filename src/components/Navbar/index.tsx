@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
 //const { colors, title } = useContext(ThemeContext);
 
    return(
-         <Container className='headerContainer flexSB' >
+        <Container className='headerContainer flexSB' >
            <Router>
               <LogoName
                smooth to='#home'>
@@ -67,7 +67,7 @@ const Navbar: React.FC = () => {
              offColor={shade(0.15, colors.title)}
              onColor={colors.title}
            />*/}
-         </Container>
+        </Container>
     )
  }
  export default Navbar;
