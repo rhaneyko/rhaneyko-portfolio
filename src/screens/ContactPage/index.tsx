@@ -63,6 +63,7 @@ const ContactPage: React.FC = () => {
 
     alert("Mensagem enviada com sucesso!");
   };
+
   return (
     <Container id="contact">
       <Title>Contato</Title>
