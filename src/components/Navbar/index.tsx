@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
- import { BrowserRouter as Router } from 'react-router-dom' 
+import { BrowserRouter as Router } from 'react-router-dom' 
 import { NavHashLink } from 'react-router-hash-link';
 
 //import Switch from 'react-switch';
