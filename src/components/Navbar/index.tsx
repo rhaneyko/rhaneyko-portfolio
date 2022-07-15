@@ -11,6 +11,7 @@ import { NavHashLink } from 'react-router-hash-link';
       Bars,
       NavMenu,
      } from './styles'
+
 //import { ThemeContext } from 'styled-components';
 
 export interface NavbarProps {
@@ -28,20 +29,19 @@ const Navbar: React.FC = () => {
     if (icon === 'nav_toggler') {
       setIcon('nav_toggler')
     } else setIcon('nav_toggler')
-  }
+}
 
-
-  //const { colors, title } = useContext(ThemeContext);
+//const { colors, title } = useContext(ThemeContext);
 
    return(
-           <Container className='headerContainer flexSB' >
-             <Router>
-               <LogoName
-                smooth to='#home'>
-                <p>&lt;Rhaneyko/&gt;</p>
-                </LogoName>
-               <Bars onClick={navToggle} className={icon}/>
-             <NavMenu className={active} >
+         <Container className='headerContainer flexSB' >
+           <Router>
+              <LogoName
+               smooth to='#home'>
+               <p>&lt;Rhaneyko/&gt;</p>
+              </LogoName>
+              <Bars onClick={navToggle} className={icon}/>
+              <NavMenu className={active} >
                <NavHashLink smooth to='#home'>
                  Home
                </NavHashLink>
@@ -54,9 +54,9 @@ const Navbar: React.FC = () => {
                <NavHashLink smooth to='#contact'>
                  Contatos
                </NavHashLink>
-             </NavMenu>
+              </NavMenu>
            </Router>
-           {/* <Switch
+           {/*<Switch
              onChange={toggleTheme}
              checked={title === 'dark'}
              checkedIcon={false}
@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
              handleDiameter={20}
              offColor={shade(0.15, colors.title)}
              onColor={colors.title}
-      /> */}
+           />*/}
          </Container>
     )
  }
