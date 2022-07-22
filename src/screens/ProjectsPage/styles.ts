@@ -39,9 +39,8 @@ export const Title = styled.h1`
 `;
 
 export const Cards = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid: 300px / auto auto;
 
     @media (max-width: 1440px) {
         width: 100%;
