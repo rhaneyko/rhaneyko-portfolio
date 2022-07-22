@@ -51,10 +51,8 @@ export const LinkedinButton = styled.button`
     border: 1px solid ${props => props.theme.colors.background};
     margin: 10px;
 
-
     outline: 0;
     cursor: pointer;
-
 `;
 
 export const GithubButton = styled.button`
@@ -64,7 +62,6 @@ export const GithubButton = styled.button`
 
     outline: 0;
     cursor: pointer;
-
 `;
 
 export const WhatsAppButton = styled.button`
