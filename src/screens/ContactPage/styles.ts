@@ -50,7 +50,7 @@ export const LinkedinButton = styled.button`
     background-color: ${props => props.theme.colors.background};
     border: 1px solid ${props => props.theme.colors.background};
     margin: 10px;
-
+    
     outline: 0;
     cursor: pointer;
 `;
